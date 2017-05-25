@@ -1,8 +1,19 @@
 <base href="/">
-<div class='nav-wrapper' ng-app="app" ng-controller="NavController">
-  <ul>
-    <li ng-repeat='route in routes' ng-bind='route.name' ng-click='navigate(route.route)'></li>
-  </ul>
+<nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item" href='/'>Angular 1.x + Airship CMS</a>
+      <a class="nav-item" href='/setup'>Setup</a>
+      <a class="nav-item" href='/airship-schema'>Airship Schema</a>
+      <a class="nav-item" href='/angular-tutorial'>Angular Tutorial</a>
+      <a class="nav-item" href='/elements'>Elements</a>
+    </div>
+      <a class="nav-item is-tab">Github</a>
+    </div>
+  </div>
+</nav>
+<div ng-app="app">
+  <ng-view></ng-view>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
