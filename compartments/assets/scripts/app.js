@@ -6,11 +6,12 @@
 
       $routeProvider
         .when("/", {
-          templateUrl: 'assets/scripts/root.html',
-          controller: 'RootController'
+          templateUrl: 'assets/scripts/setup.html',
+          controller: 'SetupController'
         })
         .when("/styling", {
-          templateUrl: ''
+          templateUrl: 'assets/scripts/styling.html',
+          controller: 'StylingController'
         })
         .when("/airship-schema", {
           templateUrl: ''
@@ -19,13 +20,39 @@
           templateUrl: ''
         })
         .when("/elements", {
-          templateUrl: ''
+          templateUrl: '/assets/scripts/elements.html',
+          controller: 'ElementsController'
         })
-        .when("/setup", {
-          templateUrl: ''
-        });
     })
-    .controller('RootController', ['$scope', function($scope) {
-      $scope.message = 'hello world'
+    .controller('SetupController', ['$scope', '$http', function($scope, $http) {
+      $http.get('http://angular-1.airshipcms.io/api/pages/__root__')
+        .then(function(res) {
+          console.log(res)
+          $scope.title = res.data.name;
+          res.data.fields.forEach(function(field) {
+            switch(field.variable_name) {
+              default:
+                $scope[field.variable_name] = field.value;
+                break;
+            }
+          })
+        })
+    }])
+    .controller('ElementsController', ['$scope', '$http', function($scope, $http) {
+      $http.get('http://angular-1.airshipcms.io/api/aerostat_collection/elements?limit=20&sort=sorting_position')
+        .then(function(res) {
+          $scope.elements = res.data.map(function(element) {
+            element.fields.forEach(function(field) {
+              switch(field.variable_name) {
+                default:
+                  element[field.variable_name] = { value: field.value };
+                  break;
+              }
+            });
+            return element
+          });
+        })
+    }])
+    .controller('StylingController', ['$scope', function($scope) {
     }])
 })(window.angular);
