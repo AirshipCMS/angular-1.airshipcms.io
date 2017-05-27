@@ -1,15 +1,15 @@
 <div class='container'>
 	<div class='columns' ng-repeat='element in elements track by $index' ng-if='$index % 4 === 0'>
-		<a href='/elements/{{elements[i].id}}' class='column is-3 element' ng-repeat='i in [$index, $index + 1, $index + 2, $index + 3]'>
+		<a href='/elements/{{ elements[i].id }}' class='column is-3 element' ng-repeat='i in [$index, $index + 1, $index + 2, $index + 3]'>
 			<div class='card'>
 				<div class='card-image'>
 					<figure class="image">
-          				<img src="{{elements[i].image.value[0].thumbnail_url}}" alt="{{elements[i].value[0].file_name}}">
+          				<img src="{{ elements[i].image.value[0].thumbnail_url }}" alt="{{ elements[i].value[0].file_name }}">
         			</figure>
         		</div>
         		<div class='card-content'>
         			<div class="media-content">
-        				<p class="title is-4">{{elements[i].name.value}}</p>
+        				<p class="title is-4">{{ elements[i].name.value }}</p>
       				</div>
       			</div>
 			</div>

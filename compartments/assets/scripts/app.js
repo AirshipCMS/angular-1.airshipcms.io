@@ -14,10 +14,12 @@
           controller: 'StylingController'
         })
         .when("/airship-schema", {
-          templateUrl: ''
+          templateUrl: 'assets/scripts/airship-schema.html',
+          controller: 'AirshipSchemaController'
         })
         .when("/angular-tutorial", {
-          templateUrl: ''
+          templateUrl: 'assets/scripts/tutorial.html',
+          controller: 'TutorialController'
         })
         .when("/elements", {
           templateUrl: '/assets/scripts/elements.html',
@@ -28,13 +30,15 @@
           controller: 'ElementController'
         })
     })
-    .controller('SetupController', ['$scope', '$http', function($scope, $http) {
+    .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
       $http.get('http://angular-1.airshipcms.io/api/pages/__root__')
         .then(function(res) {
-          console.log(res)
           $scope.title = res.data.name;
           res.data.fields.forEach(function(field) {
             switch(field.variable_name) {
+              case 'body':
+                $scope[field.variable_name] = $sce.trustAsHtml(field.value);
+                break;
               default:
                 $scope[field.variable_name] = field.value;
                 break;
@@ -72,6 +76,55 @@
           throw(err);
         });
     }])
-    .controller('StylingController', ['$scope', function($scope) {
+    .controller('StylingController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
+      $http.get('http://angular-1.airshipcms.io/api/pages/styling')
+        .then(function(res) {
+          res.data.fields.forEach(function(field) {
+            switch(field.variable_name) {
+              case 'body':
+                $scope[field.variable_name] = $sce.trustAsHtml(field.value);
+                break;
+              default:
+                $scope[field.variable_name] = field.value;
+                break;
+            }
+          });
+        }).catch(function(err) {
+          throw(err);
+        });
     }])
+    .controller('AirshipSchemaController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
+      $http.get('http://angular-1.airshipcms.io/api/pages/airship-schema')
+        .then(function(res) {
+          res.data.fields.forEach(function(field) {
+            switch(field.variable_name) {
+              case 'body':
+                $scope[field.variable_name] = $sce.trustAsHtml(field.value);
+                break;
+              default:
+                $scope[field.variable_name] = field.value;
+                break;
+            }
+          });
+        }).catch(function(err) {
+          throw(err);
+        });
+    }])
+    .controller('TutorialController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
+      $http.get('http://angular-1.airshipcms.io/api/pages/angular-tutorial')
+        .then(function(res) {
+          res.data.fields.forEach(function(field) {
+            switch(field.variable_name) {
+              case 'body':
+                $scope[field.variable_name] = $sce.trustAsHtml(field.value);
+                break;
+              default:
+                $scope[field.variable_name] = field.value;
+                break;
+            }
+          });
+        }).catch(function(err) {
+          throw(err);
+        });
+    }]);
 })(window.angular);

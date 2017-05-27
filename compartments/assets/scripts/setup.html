@@ -1,7 +1,10 @@
 <div>
-	<div class='summary container'>
-		<img src="/assets/media/airship-logo.svg">
-		<h1 class='title is-4'>{{title}}</h1>
-		<p>{{description}}</p>
+	<div class='container setup'>
+		<div class='summary'>
+			<img src="/assets/media/airship-logo.svg">
+			<h1 class='title is-4'>{{ title }}</h1>
+			<p>{{ description }}</p>
+		</div>
+		<div ng-bind-html='body'></div>
 	</div>
 </div>
