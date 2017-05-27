@@ -46,3 +46,30 @@
       border-spacing: 0;
     }
 
+.container {
+  max-width: 960px;
+}
+nav {
+  margin-bottom: 20px;
+}
+
+.summary {
+  text-align: center;
+  background: #C2002E;
+  color: #8A9A9E;
+  max-width: 960px;
+  border-radius: 5px;
+  padding: 100px;
+  font-size: 20px;
+}
+
+.summary .title {
+  color: #8A9A9E;
+  margin: 20px;
+}
+
+/*ELEMENTS*/
+
+.image {
+  background-color: #D7E3E6;
+}

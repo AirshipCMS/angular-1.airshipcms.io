@@ -1,0 +1,12 @@
+<div class='container'>
+	<div class='element'>
+		<figure class="image element-detail-image">
+          	<img src="{{ element.image.value[0].url }}" alt="{{ element.value[0].file_name }}">
+        </figure>
+        <div class='element-details'>
+        	<h1>{{ element.name.value }}</h1>
+        	<h4>#{{ element.sorting_position }}</h4>
+        	<p>{{ element.description.value }}</p>
+        </div>
+	</div>
+</div>

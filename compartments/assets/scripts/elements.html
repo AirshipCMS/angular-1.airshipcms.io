@@ -1,6 +1,6 @@
 <div class='container'>
 	<div class='columns' ng-repeat='element in elements track by $index' ng-if='$index % 4 === 0'>
-		<div class='column is-3 element' ng-repeat='i in [$index, $index + 1, $index + 2, $index + 3]'>
+		<a href='/elements/{{elements[i].id}}' class='column is-3 element' ng-repeat='i in [$index, $index + 1, $index + 2, $index + 3]'>
 			<div class='card'>
 				<div class='card-image'>
 					<figure class="image">
@@ -13,6 +13,6 @@
       				</div>
       			</div>
 			</div>
-		</div>
+		</a>
 	</div>
 </div>
