@@ -1,21 +1,28 @@
 <base href="/">
 <nav class="nav">
   <div class="container">
-    <div class="nav-left">
-      <a class="nav-item" href='/'>Angular 1.x + Airship CMS</a>
+    <a class="nav-title title is-4 is-tab" href='/'>Angular 1.x + Airship CMS</a>
+    <div class="nav-right nav-menu" id="nav-menu">
       <a class="nav-item" href='/'>Setup</a>
       <a class="nav-item" href='/styling'>Styling</a>
       <a class="nav-item" href='/airship-schema'>Airship Schema</a>
       <a class="nav-item" href='/angular-tutorial'>Angular Tutorial</a>
       <a class="nav-item" href='/elements'>Elements</a>
     </div>
-      <a class="nav-item is-tab" href=""><img src="/assets/media/github-icon.svg"></a>
+    <a class="nav-item is-tab" href=""><img src="/assets/media/github-icon.svg"></a>
     </div>
+     <span class="nav-toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
   </div>
 </nav>
 <div ng-app="app">
   <ng-view></ng-view>
 </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="assets/scripts/nav.js"></script>
 <script src="assets/scripts/app.js"></script>
