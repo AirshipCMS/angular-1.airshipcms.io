@@ -1,27 +1,5 @@
-<nav class="nav">
-  <div class="container">
-    <a class="nav-title title is-tab" href='/'>Angular 1.x + Airship CMS</a>
-    <div class="nav-right nav-menu" id="nav-menu">
-      <a class="nav-item active" href='/'>Setup</a>
-      <a class="nav-item" href='/styling'>Styling</a>
-      <a class="nav-item" href='/airship-schema'>Airship Schema</a>
-      <a class="nav-item" href='/angular-tutorial'>Angular Tutorial</a>
-      <a class="nav-item" href='/elements'>Elements</a>
-    </div>
-    <a class="nav-item is-tab github" href=""><img src="/assets/media/github-icon.svg"></a>
-    <span class="nav-toggle" id="nav-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-    </div>
-  </div>
-</nav>
-<div>
-	<div class='container content'>
-		<div class='summary'>
-			<?xml version="1.0" encoding="UTF-8"?>
-      <svg width="304px" height="156px" viewBox="0 0 304 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="304px" height="156px" viewBox="0 0 304 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>angular-airship</title>
     <desc>Created with Sketch.</desc>
@@ -57,11 +35,4 @@
             <path d="M150.747594,38.6676617 L138.202139,38.6676617 L144.474866,23.6103184 L150.747594,38.6676617 Z M144.474866,8 L123,56.0447761 L131.006952,56.0447761 L135.323695,45.2945274 L153.551872,45.2945274 L157.868984,56.0447761 L165.875936,56.0447761 L144.474866,8 Z" id="Fill-11-Copy" fill="#C1002D" mask="url(#mask-2)"></path>
         </g>
     </g>
-      </svg>
-			<h1 class='title is-4'>{{ title }}</h1>
-			<p>{{ description }}</p>
-		</div>
-		<div ng-bind-html='body' class='body'></div>
-	</div>
-</div>
-<script src="assets/scripts/nav.js"></script>
+</svg>
