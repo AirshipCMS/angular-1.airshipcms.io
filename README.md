@@ -1,14 +1,13 @@
 # Angular 1.x + Airship CMS
+[![airship-angular](/assets/media/angular-airship-red.svg)]
 
 This demo project demonstrates an Airship project that uses an Angular 1.X SPA to render all pages.
 You can view the demo [here](http://angular-1.airshipcms.io/)
 
-[![airship](/compartments/assets/media/airship-logo.svg)]
-
 
 ## Tools
 - Angular 1.6.4: a JavaScript MVW framework.
-	- angular-route was used for routing.
+- angular-route was used for routing.
 - Bulma: a modern CSS framework based on Flexbox
 - CSS
 
@@ -116,6 +115,7 @@ In `compartments/templates/root.html`, add a script tag that points to `/assets/
 
 In `root.html`, add the container for the angular app right above the scripts.
 
+```
 <base href="/">
 <div ng-app="app">
   <ng-view></ng-view>
@@ -123,6 +123,7 @@ In `root.html`, add the container for the angular app right above the scripts.
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 <script src="assets/scripts/app.js"></script>
+```
 
 ## 3. Templating
 
@@ -163,6 +164,7 @@ To prevent "unsafe" errors, you will need to sanitize the field's value with `$s
 
 JS:
 
+```
 .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
     $http.get('http://yourdomain.airshipcms.io/api/pages/__root__')
         .then(function(res) {
@@ -178,13 +180,16 @@ JS:
           	})
         })
     }])
+```
 
 Template:
 
+```
 <div>
 	<p>{{ description }}</p>
 	<div ng-bind-html='body' class='body'></div>
 </div>
+```
 
 ### Collections
 
