@@ -44,18 +44,26 @@ You can view more info on setting up your Airship project [here]().
 
 This section demonstrates how all of the pages/collections were created in the CMS.
 
+PAGE                   TYPE             FIELDS
+/_root_                page             body, description
+/styling               page             body
+/airship-schema        page             body
+/angular-tutorial      page             body
+/elements              collection       description, image, name
+/elements/:id          collection       description, image, name
+
 ## 1. Login to Airship CMS
 
 in your browser, navigate to yourdomain.airshipcms.io/admin and login with your credentials.
 
-## 1. Modify _root_ page
+## 2. Modify _root_ page
 
 - 1. Remove the initial page fields from the `Page Fields` section.
 - 2. Add a text area field titled Description.
 - 3. Add a richtext area field titled Body.
 - 4. Click the Modify Page button.
 
-## 2. Create Airship Schema Page
+## 3. Create Airship Schema Page
 
 - 1. Click the New Page button.
 - 2. Enter "Airship Schema" into the Title field.
@@ -63,7 +71,7 @@ in your browser, navigate to yourdomain.airshipcms.io/admin and login with your 
 - 4. In the `Page Fields` section, add a richtext area field titled Body.
 - 5. Click Create Page.
 
-## 3. Create Angular Tutorial Page
+## 4. Create Angular Tutorial Page
 
 - 1. Click the New Page button.
 - 2. Enter "Angular Tutorial" into the Title field.
@@ -71,7 +79,7 @@ in your browser, navigate to yourdomain.airshipcms.io/admin and login with your 
 - 4. In the `Page Fields` section, add a richtext area field titled Body.
 - 5. Click Create Page.
 
-## 4. Create Styling Page
+## 5. Create Styling Page
 
 - 1. Click the New Page button.
 - 2. Enter "Styling" into the Title field.
@@ -79,7 +87,7 @@ in your browser, navigate to yourdomain.airshipcms.io/admin and login with your 
 - 4. In the `Page Fields` section, add a richtext area field titled Body.
 - 5. Click Create Page.
 
-## 5. Create Elements Collection
+## 6. Create Elements Collection
 
 - 1. Navigate to /collections.
 - 2. Click New Collection button.
@@ -91,7 +99,7 @@ in your browser, navigate to yourdomain.airshipcms.io/admin and login with your 
 - 8. Set Primary Label to Name.
 - 9. Click the Create Collection button.
 
-## 6. Add Elements
+## 7. Add Elements
 
 - 1. In the Elements Collection, click the New Item button.
 - 2. Enter the element Name, Image and Desctiption.
@@ -125,14 +133,14 @@ In `root.html`, add the container for the angular app right above the scripts.
 <script src="assets/scripts/app.js"></script>
 ```
 
-## 3. Templating
+## 3. Templates
 
 In `compartments/assets/scripts` and a make a directory named `templates`.
 All of your SPA templates will go in this directory.
 
 When referencing your templates from `app.js`, use `/assets/scripts/templates/filename.html` format.
 
-## 3. Binding Page/Collection Data
+## 4. Binding Page/Collection Data
 
 To display Page/Collection content, you must use the Airship CMS API.
 
@@ -199,3 +207,11 @@ The collection permalink for this project is `elements`.
 This will return an array of Aerostats.
 An Aerostat contains a number of properties. The `fields` array is the only field used in this demo.
 The structure is same as Page Fields.
+
+### Deploying
+
+  1. Open your terminal.
+  2. In the root of your project, run `airship launch`
+  3. This will deploy your app to `yoursite.airshipcms.io`.
+
+You can view more info on launching your Airship project [here]()
