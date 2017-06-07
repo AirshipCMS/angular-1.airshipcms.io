@@ -6,27 +6,27 @@
 
       $routeProvider
         .when("/", {
-          templateUrl: 'assets/scripts/setup.html',
+          templateUrl: '/assets/scripts/templates/setup.html',
           controller: 'SetupController'
         })
         .when("/styling", {
-          templateUrl: 'assets/scripts/styling.html',
+          templateUrl: '/assets/scripts/templates/styling.html',
           controller: 'StylingController'
         })
         .when("/airship-schema", {
-          templateUrl: 'assets/scripts/airship-schema.html',
+          templateUrl: '/assets/scripts/templates/airship-schema.html',
           controller: 'AirshipSchemaController'
         })
         .when("/angular-tutorial", {
-          templateUrl: 'assets/scripts/tutorial.html',
+          templateUrl: 'assets/scripts/templates/tutorial.html',
           controller: 'TutorialController'
         })
         .when("/elements", {
-          templateUrl: '/assets/scripts/elements.html',
+          templateUrl: '/assets/scripts/templates/elements.html',
           controller: 'ElementsController'
         })
         .when("/elements/:id", {
-          templateUrl: '/assets/scripts/element.html',
+          templateUrl: '/assets/scripts/templates/element.html',
           controller: 'ElementController'
         })
     })
