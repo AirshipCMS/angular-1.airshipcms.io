@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.2"
+  }
+}
