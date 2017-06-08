@@ -1,5 +1,5 @@
 # Angular 1.x + Airship CMS
-![airship-angular](./assets/angular-airship-red.svg)
+![airship-angular](https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/86c6751d/assets/angular-airship-red.svg)
 
 This demo project demonstrates an Airship project that uses an Angular 1.X SPA to render all pages.
 You can view the demo [here](http://angular-1.airshipcms.io/)
