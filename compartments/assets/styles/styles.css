@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 body, button, input, select, textarea {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -82,7 +81,7 @@ nav {
 /*SETUP*/
 .container {
   max-width: 960px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   line-height: 20px;
   padding: 20px;
 }
