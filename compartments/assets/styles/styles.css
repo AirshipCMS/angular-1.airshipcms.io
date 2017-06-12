@@ -8,6 +8,11 @@ body, button, input, select, textarea {
   margin-top: 0;
 }
 
+.has-text-centered {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1000px){
   .container{
     margin-bottom: 60px;
