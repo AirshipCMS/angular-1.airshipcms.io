@@ -55,6 +55,7 @@ nav {
   position: absolute;
   right: 50px;
   top: 5px;
+  display: inline-block;
 }
 
 .nav-toggle {

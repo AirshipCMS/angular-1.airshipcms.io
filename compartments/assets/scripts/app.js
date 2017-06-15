@@ -38,6 +38,11 @@
         templateUrl: '/assets/scripts/templates/nav.html'
       }
     })
+    .directive('navGithub', function() {
+      return {
+        templateUrl: '/assets/scripts/templates/nav-github.html'
+      }
+    })
     .directive('navToggle', function() {
       function link(scope, element, attrs) {
         var $menu = $('#nav-menu');
