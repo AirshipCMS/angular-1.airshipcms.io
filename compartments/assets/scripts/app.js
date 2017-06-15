@@ -29,6 +29,9 @@
           templateUrl: '/assets/scripts/templates/element.html',
           controller: 'ElementController'
         })
+        .otherwise({
+          templateUrl: '/assets/scripts/templates/404.html'
+        });
     })
     .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
       $http.get('/api/pages/__root__')
