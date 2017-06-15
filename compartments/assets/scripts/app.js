@@ -34,8 +34,15 @@
         });
     })
     .directive('navBar', function() {
+
+      function link(scope) {
+        console.log(window.location)
+        scope.active = window.location.pathname.split('/')[1];
+      }
+
       return {
-        templateUrl: '/assets/scripts/templates/nav.html'
+        templateUrl: '/assets/scripts/templates/nav.html',
+        link: link
       }
     })
     .directive('navGithub', function() {
