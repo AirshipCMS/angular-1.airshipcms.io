@@ -51,11 +51,7 @@
         .then(function(res) {
           $scope.elements = res.data.map(function(element) {
             element.fields.forEach(function(field) {
-              switch(field.variable_name) {
-                default:
-                  element[field.variable_name] = { value: field.value };
-                  break;
-              }
+              element[field.variable_name] = { value: field.value };
             });
             return element
           });
@@ -66,11 +62,7 @@
         .then(function(res) {
           $scope.element = res.data;
           $scope.element.fields.forEach(function(field) {
-            switch(field.variable_name) {
-              default:
-                $scope.element[field.variable_name] = { value: field.value };
-                break;
-            }
+            $scope.element[field.variable_name] = { value: field.value };
           });
         }).catch(function(err) {
           throw(err);
