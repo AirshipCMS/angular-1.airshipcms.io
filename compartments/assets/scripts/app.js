@@ -38,6 +38,21 @@
         templateUrl: '/assets/scripts/templates/nav.html'
       }
     })
+    .directive('navToggle', function() {
+      function link(scope, element, attrs) {
+        var $menu = $('#nav-menu');
+      
+        element.click(function() {
+          $(this).toggleClass('is-active');
+          $menu.toggleClass('is-active');
+        });
+      }
+
+      return {
+        link: link,
+        templateUrl: '/assets/scripts/templates/nav-toggle.html'
+      };
+    })
     .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
       $http.get('/api/pages/__root__')
         .then(function(res) {
