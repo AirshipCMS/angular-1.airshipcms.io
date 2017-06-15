@@ -33,6 +33,11 @@
           templateUrl: '/assets/scripts/templates/404.html'
         });
     })
+    .directive('navBar', function() {
+      return {
+        templateUrl: '/assets/scripts/templates/nav.html'
+      }
+    })
     .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
       $http.get('/api/pages/__root__')
         .then(function(res) {
