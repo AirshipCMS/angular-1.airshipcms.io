@@ -36,7 +36,6 @@
     .directive('navBar', function() {
 
       function link(scope) {
-        console.log(window.location)
         scope.active = window.location.pathname.split('/')[1];
       }
 
