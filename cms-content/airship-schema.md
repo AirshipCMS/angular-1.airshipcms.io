@@ -1,55 +1,41 @@
-## 1\. Login to Airship CMS
+# Airship Schema
+Before you can do the Angular Tutorial, complete this tutorial for recreating the Airship Schema for this project.
 
-in your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
+## 1. Login to Airship CMS
+In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
+[picture of airship cms login]  
 
-### 1\. Modify `_root_` page
+## Modify the `_root_` page
+- Click the wrench icon for the "Landing Page".
+[picture of page]  
+- Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
+[picture of template/layout]  
+- Remove the initial page fields from the `Page Fields` section.
+- Add a textarea field titled "Description".
+- Add a link field titled "Github". [@fobabett - added]
+- Add a textarea field titled "Body". [@fobabett - updated]
+[picture of fields]  
+- Click the Modify Page button.
 
-- 1\. Remove the initial page fields from the `Page Fields` section.
+## Create the Airship Schema Page
+- Click the `New Page` button.
+- Enter "Airship Schema" into the Title field.
+- The permalink "airship-schema" will generate.
+[picture of title and permalink]  
+- Because the entire application will be rendered in a single-page application with angular templating, you only need to set a layout and template for the root page. All other pages and collections don't need a layout or template.
+- In the `Page Fields` section, add a textarea field titled "Body".
+- Click `Create Page`.
 
-- 2\. Add a text area field titled Description.
+## Create the "Angular Tutorial" and "Styling" Pages
+- Click the `New Page` button.
+- Enter "Airship Tutorial" into the Title field.
+- The permalink "airship-tutorial" will generate.
+- Skip the `Page Rendering` section.
+- In the `Page Fields` section, add a textarea field titled "Body".
+- Click `Create Page`.
+- Repeat, with the Title "Styling" for the Styling page.
 
-- 3\. Add a richtext area field titled Body.
-
-- 4\. Click the Modify Page button.
-
-### 2\. Create Airship Schema Page
-
-- 1\. Click the New Page button.
-
-- 2\. Enter "Airship Schema" into the Title field.
-
-- 3\. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-
-- 4\. In the `Page Fields` section, add a richtext area field titled Body.
-
-- 5\. Click Create Page.
-
-### 3\. Create Angular Tutorial Page
-
-- 1\. Click the New Page button.
-
-- 2\. Enter "Angular Tutorial" into the Title field.
-
-- 3\. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-
-- 4\. In the `Page Fields` section, add a richtext area field titled Body.
-
-- 5\. Click Create Page.
-
-### 4\. Create Styling Page
-
-- 1\. Click the New Page button.
-
-- 2\. Enter "Styling" into the Title field.
-
-- 3\. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-
-- 4\. In the `Page Fields` section, add a richtext area field titled Body.
-
-- 5\. Click Create Page.
-
-### 5\. Create Elements Collection
-
+## Create the "Elements" Collection
 - 1\. Navigate to /collections.
 
 - 2\. Click New Collection button.
