@@ -32,80 +32,13 @@ airship login angular-1.airshipcms.io
 Since this is an open source project, you will be able to login as an anonymous developer.
 
 ## 4. Start the local Airship Server
-In the root of your directory and run:
+In the root of your directory, run:
 ```
 airship serve
 ```
 
 ## 5. View the site in a browser
 Open a web browser and navigate to `localhost:9001`.
-
-# Airship Schema
-
-This section demonstrates how all of the pages/collections were created in the CMS.
-
-PAGE                   TYPE             FIELDS
-/_root_                page             body, description
-/styling               page             body
-/airship-schema        page             body
-/angular-tutorial      page             body
-/elements              collection       description, image, name
-/elements/:id          collection       description, image, name
-
-## 1. Login to Airship CMS
-
-in your browser, navigate to yourdomain.airshipcms.io/admin and login with your credentials.
-
-## 2. Modify _root_ page
-
-- 1. Remove the initial page fields from the `Page Fields` section.
-- 2. Add a text area field titled Description.
-- 3. Add a richtext area field titled Body.
-- 4. Click the Modify Page button.
-
-## 3. Create Airship Schema Page
-
-- 1. Click the New Page button.
-- 2. Enter "Airship Schema" into the Title field.
-- 3. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-- 4. In the `Page Fields` section, add a richtext area field titled Body.
-- 5. Click Create Page.
-
-## 4. Create Angular Tutorial Page
-
-- 1. Click the New Page button.
-- 2. Enter "Angular Tutorial" into the Title field.
-- 3. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-- 4. In the `Page Fields` section, add a richtext area field titled Body.
-- 5. Click Create Page.
-
-## 5. Create Styling Page
-
-- 1. Click the New Page button.
-- 2. Enter "Styling" into the Title field.
-- 3. In the `Page Layout & Template` section, set Layout to `application.html` and Template to `root.html`.
-- 4. In the `Page Fields` section, add a richtext area field titled Body.
-- 5. Click Create Page.
-
-## 6. Create Elements Collection
-
-- 1. Navigate to /collections.
-- 2. Click New Collection button.
-- 3. Enter "Elements" in the Title field.
-- 4. In the `Collection Layout & Template Directory` section, set Layout to `application.html` and Template to `root.html`.
-- 5. In the `Page Fields` section, add a text field titled Name.
-- 6. Add an image field titled Image.
-- 7. Add a text area field titled Description.
-- 8. Set Primary Label to Name.
-- 9. Click the Create Collection button.
-
-## 7. Add Elements
-
-- 1. In the Elements Collection, click the New Item button.
-- 2. Enter the element Name, Image and Desctiption.
-- 3. Click the Save & Close button.
-
-You can view more info on how to set up pages and collections [here]()
 
 # Angular Tutorial
 
