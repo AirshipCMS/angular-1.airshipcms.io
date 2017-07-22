@@ -1,3 +1,5 @@
+# Angular Tutorial
+
 ## 1\. Add Dependencies
 
 In your project, navigate to `compartments/templates/root.html`.  
@@ -10,14 +12,15 @@ In `compartments/assets/scripts`, create a file named `app.js`. Your angular cod
 In `compartments/templates/root.html`, add a script tag that points to `/assets/scripts/app.js`.
 
 In `root.html`, add the container for the angular app right above the scripts.
-
+```
 <base href="/">  
 <div ng-app="app">  
-    <ng-view></ng-view>  
+  <ng-view></ng-view>  
 </div>  
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>  
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>  
 <script src="assets/scripts/app.js"></script>
+```
 
 ## 3\. Templates
 
