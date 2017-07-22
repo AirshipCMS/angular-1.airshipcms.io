@@ -55,6 +55,12 @@ Links:
 
 ---
 
+# Site Settings
+So that all pages and collections render using the angular application...etc.
+[image of SPA settings]
+
+---
+
 # Deployment
 Finish the Angular Tutorial first to set up and build all Angular components. When you have completed the Angular Tutorial then follow these steps to publish your project.
 - Open your terminal.
