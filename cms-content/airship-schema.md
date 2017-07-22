@@ -1,7 +1,7 @@
 # Airship Schema
 Before you can do the Angular Tutorial, complete this tutorial for recreating the Airship Schema for this project.
 
-## 1. Login to Airship CMS
+## Login to Airship CMS
 In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
 [picture of airship cms login]  
 
