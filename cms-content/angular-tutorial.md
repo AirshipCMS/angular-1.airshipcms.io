@@ -94,7 +94,7 @@ https://yourdomain.airshipcms.io/api/pages/_root_
 
 This will return an array of items.
 
-Each item contains a number of properties. The `fields` array is the only property used in this demo. The `fields` for the `elements` collection are "name", "image", and "description".
+Each item contains a number of properties. The `fields` array is the only property used in this demo. The `fields` for the `elements` collection are "Name", "Image", and "Description".
 
 The response object structure is same as Page Fields, where each field contains these properties:
 ```
