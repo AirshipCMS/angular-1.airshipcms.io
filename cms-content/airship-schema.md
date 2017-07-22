@@ -1,11 +1,11 @@
 # Airship Schema
 Before you can do the Angular Tutorial, complete this tutorial for recreating the Airship Schema for this project.
 
-## 1. Login to Airship CMS
+## Login to Airship CMS
 In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
 [picture of airship cms login]  
 
-## 2. Modify the `_root_` page
+## Modify the `_root_` page
 - Click the wrench icon for the "Landing Page".
 [picture of page]  
 - Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
@@ -17,7 +17,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 [picture of fields]  
 - Click the Modify Page button.
 
-## 3. Create the `Airship Schema`, `Angular Tutorial`, and `Styling` Pages
+## Create the `Airship Schema`, `Angular Tutorial`, and `Styling` Pages
 - Navigate to `Pages` and click the `New Page` button.
 - Enter "Airship Schema" into the Title field.
 - The permalink "airship-schema" will generate.
@@ -27,7 +27,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 - Click `Create Page`.
 - Repeat, for the "Angular Tutorial" and "Styling" pages.
 
-## 4. Create the `Elements` Collection
+## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
 - Enter "Elements" in the Title field.
 - The public path "elements" will generate.
@@ -42,7 +42,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 [image of primary label]  
 - Click the `Create Collection` button.
 
-## 5. Add some Elements
+## Add some Elements
 - In the list view of the Elements Collection, click the `New Item` button.
 - Enter the element "Name", "Image" and "Description".
 - Click the `Save & Close` button.
