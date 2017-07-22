@@ -22,23 +22,24 @@ In `root.html`, add the container for the angular app right above the scripts.
 <script src="assets/scripts/app.js"></script>
 ```
 
-## 3. Templates
+## 3. Create Templates
 In `compartments/assets/scripts` create a directory named `templates`. All of your SPA templates will go in this directory.
 
 When referencing your templates from `app.js`, use the following format: `/assets/scripts/templates/filename.html`
 
-## 4. Binding Page and Collection Data
+## 4. Bind Page and Collection Data
 To display page and collection content, you will need use the Airship API.
 
 ### Display Page Content using Airship API
-Make a GET request to`[/api/pages/page-name](https://yoursite.airshipcms.io/api/pages/page-name)`.
+Make a GET request to`https://yoursite.airshipcms.io/api/pages/page-name`. 
+For the `_root_` page in this repo, the full GET request URL is: 
+```
+https://yourdomain.airshipcms.io/api/pages/_root_
+```
 
 In the response object, you will see an array name `fields`. This array contains an object for each field associated with the page.
 
 The `_root_` page container a "Github" field, "Description" field, and a "Body" field. The `Airship Schema` page, `Angular Tutorial` page and `Styling` page all have a "Body" field.
-
-Example of the page fields setup for the `_root_` page:  
-![](http://res.cloudinary.com/airship/image/upload/v1497216300/media/page-fields-760px_kxl0g5.png)
 
 Each field contains these properties:
 ```
@@ -57,10 +58,10 @@ Because the "Body" field's type contains HTML, to bind this field, you have to u
 
 To prevent "unsafe" errors, you will need to sanitize the field's value with `$sce.trustAsHtml`.
 
-JS:
+JS: [@fobabett, should it be `__root__` or `_root_` below?]
 ```
 .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
-  $http.get('http://yourdomain.airshipcms.io/api/pages/__root__')
+  $http.get('https://yourdomain.airshipcms.io/api/pages/__root__')
     .then(function(res) {
       res.data.fields.forEach(function(field) {
         switch(field.variable_name) {
@@ -84,13 +85,16 @@ Template:
 </div>
 ```
 
-### Collections
+### Display Collection Content using Airship API
+Make a GET request to `/api/aerostat_collection/collection-permalink`. 
+For the `elements` collection in this repo, the full GET request URL is: 
+```
+https://yourdomain.airshipcms.io/api/pages/_root_
+``` 
 
-Make a GET request to `[/api/aerostat_collection/collection-permalink](https://yoursite.airshipcms.io/api/aerostat_collection/collection-permalink)`. The collection permalink for this project is `elements`.
+This will return an array of items.
 
-This will return an array of Aerostats.
-
-An Aerostat contains a number of properties. The `fields` array is the only field used in this demo. The fields for the `elements` collection are Name, Image, and Description:
+Each item contains a number of properties. The `fields` array is the only property used in this demo. The `fields` for the `elements` collection are "Name", "Image", and "Description":
 
 ![](http://res.cloudinary.com/airship/image/upload/v1497218205/media/elements-fields_dq3h80.png)
 
