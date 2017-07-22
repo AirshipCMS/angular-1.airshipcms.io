@@ -12,7 +12,7 @@ You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airsh
 
 # Project Setup
 
-Before you can run this project locally, you need a Free Airship CMS developer account. Get a Free Account at [https://skyport.airshipcms.io].
+Before you can run this project locally, you need a Free Airship CMS developer account. Get a Free Account at [https://skyport.airshipcms.io](https://skyport.airshipcms.io).
 
 ## 1. Clone this Repository
 Clone down this repository. [@jon - wording]
