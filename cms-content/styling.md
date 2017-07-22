@@ -14,7 +14,7 @@ All files from this directory and external files are included in the head of `/c
 </head>
 ```
 
-## How to Use PostCSS
+# How to Use PostCSS
 This demonstrates how to implement PostCSS with Gulp
 
 ### 1. Install Dependencies
