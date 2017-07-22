@@ -56,7 +56,7 @@ Links:
 ---
 
 # Deployment
-Finish the Angular Tutorial first to set up and build all Angular components. When you are done with the Angular Tutorial and ready to publish your project, finish with this Deploy step.
+Finish the Angular Tutorial first to set up and build all Angular components. When you have completed the Angular Tutorial then follow these steps to publish your project.
 - Open your terminal.
 - In the root of your project, run `airship launch`
 - Enter `y` when prompted. This will deploy your app to `yoursite.airshipcms.io`.
