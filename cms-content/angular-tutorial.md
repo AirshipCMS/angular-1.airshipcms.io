@@ -1,11 +1,11 @@
 # Angular Tutorial
+Complete the Airship Schema tutorial before starting this Angular Tutorial.
 
-## 1\. Add Dependencies
-
+## 1. Add Dependencies
 In your project, navigate to `compartments/templates/root.html`.  
 Add the angular and angular-route scripts.
 
-## 2\. Initialize Angular App
+## 2. Initialize Angular App
 
 In `compartments/assets/scripts`, create a file named `app.js`. Your angular code will go in this file.
 
@@ -22,47 +22,45 @@ In `root.html`, add the container for the angular app right above the scripts.
 <script src="assets/scripts/app.js"></script>
 ```
 
-## 3\. Templates
+## 3. Templates
+In `compartments/assets/scripts` create a directory named `templates`. All of your SPA templates will go in this directory.
 
-In `compartments/assets/scripts` and a make a directory named `templates`. All of your SPA templates will go in this directory.
+When referencing your templates from `app.js`, use the following format: `/assets/scripts/templates/filename.html`
 
-When referencing your templates from `app.js`, use `/assets/scripts/templates/filename.html` format.
+## 4. Binding Page and Collection Data
+To display page and collection content, you will need use the Airship API.
 
-## 4\. Binding Page/Collection Data
-
-To display Page/Collection content, you must use the Airship CMS API.
-
-### Pages
-
+### Display Page Content using Airship API
 Make a GET request to`[/api/pages/page-name](https://yoursite.airshipcms.io/api/pages/page-name)`.
 
-In the response object, you will see an array name `fields`. This array contains an object for each field created for that page.
+In the response object, you will see an array name `fields`. This array contains an object for each field associated with the page.
 
-The `_root_` page has a Github field, Description field, and a Body field. The `Airship Schema`, `Angular Tutorial` and `Styling` pages all have a Body field.
+The `_root_` page container a "Github" field, "Description" field, and a "Body" field. The `Airship Schema` page, `Angular Tutorial` page and `Styling` page all have a "Body" field.
 
-Example of page fields setup:  
+Example of the page fields setup for the `_root_` page:  
 ![](http://res.cloudinary.com/airship/image/upload/v1497216300/media/page-fields-760px_kxl0g5.png)
 
 Each field contains these properties:
-
-<pre>num_options: int
+```
+num_options: int
 options: []
 sorting_position: int
 title: string
 type: string
 value: string
-variable_name: string</pre>
+variable_name: string
+```
 
 The `value` property is what you will bind to your templates.
 
-Because the Body field's type is `richtext area` the value will contain HTML. To bind this field, you have to use Angular's `ng-bind-html` directive instead of `{{ body }}`.
+Because the "Body" field's type contains HTML, to bind this field, you have to use Angular's `ng-bind-html` directive instead of `{{ body }}`. [@fobabett -  is this accurate? I changed the field to textarea]
 
 To prevent "unsafe" errors, you will need to sanitize the field's value with `$sce.trustAsHtml`.
 
 JS:
-
-<pre>.controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
-  $http.get('http://yourdomain.airshipcms.io/api/pages/__root__')
+```
+.controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
+  $http.get('http://yourdomain.airshipcms.io/api/pages/__root__')
     .then(function(res) {
       res.data.fields.forEach(function(field) {
         switch(field.variable_name) {
@@ -75,14 +73,16 @@ JS:
         }
       })
     })
-  }])</pre>
+  }])
+```
 
 Template:
-
+```
 <div>  
-    <p>{{ description }}</p>  
-    <div ng-bind-html='body' class='body'></div>  
+  <p>{{ description }}</p>  
+  <div ng-bind-html='body' class='body'></div>  
 </div>
+```
 
 ### Collections
 
