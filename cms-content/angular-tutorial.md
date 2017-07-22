@@ -1,5 +1,5 @@
 # Angular Tutorial
-Complete the Airship Schema tutorial before starting this Angular Tutorial.
+**Complete the Airship Schema tutorial before starting this Angular Tutorial.** This Angular Tutorial explains how Angular was set up and used to render the pages and collections for this application.
 
 ## 1. Add Dependencies
 In your project, navigate to `compartments/templates/root.html`.  
