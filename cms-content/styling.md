@@ -17,7 +17,7 @@ All files from this directory and external files are included in the head of `/c
 # How to Use PostCSS
 This demonstrates how to implement PostCSS with Gulp
 
-### 1. Install Dependencies
+## 1. Install Dependencies
 ```
 yarn add gulp gulp-postcss
 ```
@@ -26,10 +26,10 @@ or
 npm i gulp gulp-postcss
 ```
 
-### 2. Add PostCSS Config
+## 2. Add PostCSS Config
 Add your `postcss.config.js` to the root of your project.
 
-### 3. Add Gulp File
+## 3. Add Gulp File
 Add your `gulpfile.js` to the root of your project
 
 Set the destination of your gulp task to `./compartments/assets/styles`
