@@ -17,7 +17,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 [picture of fields]  
 - Click the Modify Page button.
 
-## Create the Airship Schema Page
+## Create the `Airship Schema` Page
 - Click the `New Page` button.
 - Enter "Airship Schema" into the Title field.
 - The permalink "airship-schema" will generate.
@@ -26,7 +26,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 - In the `Page Fields` section, add a textarea field titled "Body".
 - Click `Create Page`.
 
-## Create the "Angular Tutorial" and "Styling" Pages
+## Create the `Angular Tutorial` and `Styling` Pages
 - Click the `New Page` button.
 - Enter "Airship Tutorial" into the Title field.
 - The permalink "airship-tutorial" will generate.
@@ -35,7 +35,7 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 - Click `Create Page`.
 - Repeat, with the Title "Styling" for the Styling page.
 
-## Create the "Elements" Collection
+## Create the `Elements` Collection
 - 1\. Navigate to /collections.
 
 - 2\. Click New Collection button.
