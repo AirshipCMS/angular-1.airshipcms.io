@@ -12,6 +12,8 @@ You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airsh
 
 # Project Setup
 
+Before you can run this project locally, you need a Free Airship CMS developer account. Get a Free Account at [https://skyport.airshipcms.io].
+
 ## 1. Clone this Repository
 Clone down this repository. [@jon - wording]
 
@@ -19,7 +21,7 @@ Clone down this repository. [@jon - wording]
 If you don't yet have the Airship Launcher command line tools, install the toolset at [https://install.airshipcms.io](https://install.airshipcms.io).
 
 ## 3. Login to Airship CMS
-In your terminal, navigate to the root of the directory and run:
+In your terminal, navigate to the root of your directory and run:
 ```
 airship login angular-1
 ```
@@ -27,9 +29,10 @@ or more verbosely:
 ```
 airship login angular-1.airshipcms.io
 ```
+Since this is an open source project, you will be able to login as an anonymous developer.
 
 ## 4. Start the local Airship Server
-Run:
+In the root of your directory and run:
 ```
 airship serve
 ```
