@@ -1,10 +1,10 @@
 # Angular 1.x + Airship CMS
 <img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/86c6751d/assets/angular-airship-red.svg">
 
-This demo project demonstrates an Airship project that uses an Angular 1.X SPA to render all pages.
+This is a demo of an Airship CMS project that uses an Angular 1.X SPA to render all pages.
 You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airshipcms.io/).
 
-## Tools
+# Tools
 - [Airship CMS](https://airshipcms.io): a web development & deployment platform.
 - [Angular 1.6.4](https://angularjs.org): a JavaScript MVW framework.
 - [angular-route](https://www.npmjs.com/package/angular-route): used for routing.
