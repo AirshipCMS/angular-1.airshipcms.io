@@ -48,15 +48,15 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 - Click the `Save & Close` button.
 - Create a few more elements.
 
-## 6. Deploy
-Finish the Angular Tutorial first to set up and build all Angular components. When you are done with the Angular Tutorial and ready to publish your project, finish with this Deploy step.
-- Open your terminal.
-- In the root of your project, run `airship launch`
-- Enter `y` when prompted. This will deploy your app to `yoursite.airshipcms.io`.
-
----
-
 Links: 
 - Airship CLI commands
 - Schema Creation
 - Layouts & Templates
+
+---
+
+# Deployment
+Finish the Angular Tutorial first to set up and build all Angular components. When you are done with the Angular Tutorial and ready to publish your project, finish with this Deploy step.
+- Open your terminal.
+- In the root of your project, run `airship launch`
+- Enter `y` when prompted. This will deploy your app to `yoursite.airshipcms.io`.
