@@ -12,32 +12,30 @@ You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airsh
 
 # Project Setup
 
-## 1. Open up your terminal and navigate to the root directory of your project
+## 1. Clone this Repository
+Clone down this repository. [@jon - wording]
 
-## 2. Login to Airship CMS
+## 2. Install Airship Launcher CLI Tools
+If you don't yet have the Airship Launcher command line tools, install the toolset at [https://install.airshipcms.io](https://install.airshipcms.io).
 
+## 3. Login to Airship CMS
+In your terminal, navigate to the root of the directory and run:
+```
+airship login angular-1
+```
+or more verbosely:
+```
+airship login angular-1.airshipcms.io
+```
+
+## 4. Start the local Airship Server
 Run:
+```
+airship serve
+```
 
-```airship login [YOUR SITE NAME]```
-
-## 3. Initialize Airship CMS
-
-Run:
-
-```airship land```
-
-This pulls down necessary Airship config files and initial project structure.
-
-## 4. Start Your Airship Server
-
-Run:
-
-```airship serve```
-
-Open browser and navigate to localhost:9001
-
-You can view more info on setting up your Airship project [here]().
-
+## 5. View the site in a browser
+Open a web browser and navigate to `localhost:9001`.
 
 # Airship Schema
 
