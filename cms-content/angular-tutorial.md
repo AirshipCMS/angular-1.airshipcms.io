@@ -94,25 +94,24 @@ https://yourdomain.airshipcms.io/api/pages/_root_
 
 This will return an array of items.
 
-Each item contains a number of properties. The `fields` array is the only property used in this demo. The `fields` for the `elements` collection are "Name", "Image", and "Description":
-
-![](http://res.cloudinary.com/airship/image/upload/v1497218205/media/elements-fields_dq3h80.png)
+Each item contains a number of properties. The `fields` array is the only property used in this demo. The `fields` for the `elements` collection are "name", "image", and "description".
 
 The response object structure is same as Page Fields, where each field contains these properties:
-
-<pre>num_options: int
+```
+num_options: int
 options: []
 sorting_position: int
 title: string
 type: string
 value: string
-variable_name: string</pre>
+variable_name: string
+```
 
 Set `$scope.elements` to the response object.
 
 JS:
-
-<pre>.controller('ElementsController', ['$scope', '$http', function($scope, $http) {
+```
+.controller('ElementsController', ['$scope', '$http', function($scope, $http) {
   $http.get('https://yourdomain.airshipcms.io/api/aerostat_collection/elements?limit=20&sort=sorting_position')
     .then(function(res) {
       $scope.elements = res.data.map(function(element) {
@@ -126,12 +125,13 @@ JS:
         return element
       });
     })
-  }])</pre>
+  }])
+```
 
-In your template, display the name and image of each element by using Angular's `ng-repeat` directive.
+In your template, display the "name" and "image" of each element by using Angular's `ng-repeat` directive.
 
 Template:
-
+```
 <div>  
   <a href='/elements/{{ element.id }}' class='element' ng-repeat='element in elements'>  
     <div class='card'>  
@@ -148,3 +148,4 @@ Template:
   </div>  
   </a>  
 </div>
+```
