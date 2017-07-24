@@ -54,11 +54,11 @@ variable_name: string
 
 The `value` property is what you will bind to your templates.
 
-Because the "Body" field's type contains HTML, to bind this field, you have to use Angular's `ng-bind-html` directive instead of `{{ body }}`. [@fobabett -  is this accurate? I changed the field to textarea]
+Because the "Body" field's type contains HTML, to bind this field, you have to use Angular's `ng-bind-html` directive instead of `{{ body }}`.
 
 To prevent "unsafe" errors, you will need to sanitize the field's value with `$sce.trustAsHtml`.
 
-JS: [@fobabett, should it be `__root__` or `_root_` below?]
+JS: 
 ```
 .controller('SetupController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
   $http.get('https://yourdomain.airshipcms.io/api/pages/__root__')
@@ -89,7 +89,7 @@ Template:
 Make a GET request to `/api/aerostat_collection/collection-permalink`. 
 For the `elements` collection in this repo, the full GET request URL is: 
 ```
-https://yourdomain.airshipcms.io/api/pages/_root_
+https://yourdomain.airshipcms.io/api/pages/__root__
 ``` 
 
 This will return an array of items.
