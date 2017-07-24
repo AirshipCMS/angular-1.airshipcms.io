@@ -40,5 +40,4 @@ airship serve
 ## 5. View the site in a browser
 Open a web browser and navigate to `localhost:9001`.
 
-# Inspect Files
-You can modify any of the project files... See the Airship Schema for how the pages and collection were setup. See the Angular Tutorial for how the Angular project was created... etc.
+Review the Styling, Airship Schema, and Angular Tutorial pages for how the project was set up. If you want to see how the project schema works with [----], you will need to set up your own Airship Project at [=====] and create a new site with the settings outlined on the Airship Schema page.
