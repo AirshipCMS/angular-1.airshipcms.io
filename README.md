@@ -19,7 +19,7 @@ Clone this repository.
 
 ## 2. Install Airship Launcher CLI Tools
 If you don't yet have the Airship Launcher command line tools, install the toolset at [https://install.airshipcms.io](https://install.airshipcms.io). 
-With the Airship Launcher command line tools, you will be able to login and serve the project locally, though you won't be able to land or launch any files.
+With the Airship Launcher command line tools, you will be able to `airship login` and `airship serve` the project locally. However, you won't have permission to `airship land` or `airship launch` any files.
 
 ## 3. Login to Airship CMS
 In your terminal, navigate to the root of your directory and run:
