@@ -72,6 +72,8 @@ Click the `Create Collection` button.
 - Click the `Save & Close` button.
 - Create a few more elements.
 
+_If you have a local copy of this repository, the graphics for all the elements in this demo are included in a directory outside of compartments._
+
 ## Local Development
 Follow the Setup instructions for cloning this repository, logging in, starting a server, and viewing the site locally.
 
