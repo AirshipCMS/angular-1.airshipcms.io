@@ -36,16 +36,24 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 ## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
 - Enter "Elements" in the Title field.
+- Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
-- Modify the second field so that it reads "Refer to a single item in this collection as a(n)... element."
-[image of collection setup]  
+
+<img width="459" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551508-1b842256-7084-11e7-9937-8ac2629977d6.png">  
+
 - You don't need to set anything in the `Collection Rendering` section.
 - In the `Collection Settings` section, check "Show Permalink".
-[image of show permalink]  
+
+<img width="720" alt="elements-collection-settings" src="https://user-images.githubusercontent.com/1865400/28551522-30d3c5a8-7084-11e7-9ecf-db23a76f36f0.png">  
+
 - In the `Post Fields` section, add a text field titled "Name", an image field titled "Image", and a textarea field titled "Description".
-[image of post fields]  
+
+<img width="697" alt="elements-collection-fields" src="https://user-images.githubusercontent.com/1865400/28551551-571e8a4a-7084-11e7-88bc-b9ff2524654d.png">  
+
 - Set the Primary Label to "Name".
-[image of primary label]  
+
+<img width="359" alt="elements-collection-primary-label" src="https://user-images.githubusercontent.com/1865400/28551566-70836c26-7084-11e7-979e-09429ea071b9.png">  
+
 - Click the `Create Collection` button.
 
 ## Add some Elements
