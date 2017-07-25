@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="97px" viewBox="0 0 84 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>element-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="element-1">
+            <polygon id="Polygon-Copy-39" fill="#FFFFFF" points="42.02147 16 70.0429399 32.1782032 70.0429399 64.5346097 42.02147 80.7128129 14 64.5346097 14 32.1782032"></polygon>
+            <path d="M1.5,24.9724319 L1.5,71.7625951 L42.02147,95.1576766 L82.5429399,71.7625951 L82.5429399,24.9724319 L42.02147,1.57735027 L1.5,24.9724319 Z M83.5429399,24.3950816 L83.5429399,72.3399453 L42.02147,96.3123772 L0.5,72.3399453 L0.5,24.3950816 L42.02147,0.422649731 L83.5429399,24.3950816 Z" id="Polygon-Copy-59" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M43.2646484,55 L41.6826172,55 L41.6826172,44.8242188 C41.6826172,43.9778604 41.7086586,43.1770871 41.7607422,42.421875 C41.6240228,42.5585944 41.4710295,42.7018222 41.3017578,42.8515625 C41.1324861,43.0013028 40.3577543,43.6360621 38.9775391,44.7558594 L38.1181641,43.6425781 L41.8974609,40.7226562 L43.2646484,40.7226562 L43.2646484,55 Z" id="1-copy" fill="#8A9A9E"></path>
+        </g>
+    </g>
+</svg>
