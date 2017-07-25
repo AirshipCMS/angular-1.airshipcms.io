@@ -41,3 +41,5 @@ airship serve
 Open a web browser and navigate to `localhost:9001`.
 
 Review the Styling, Airship Schema, and Angular Tutorial pages for how the project was set up. If you want to see how the Airship CMS setup for this project, you will need to set up your own project and follow the settings on the Airship Schema page for replicating the pages, collections, and fields for this site.
+
+You will also need to create your own project if you want to test `airship land` and `airship launch` functionality for publishing projects.
