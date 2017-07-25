@@ -49,7 +49,7 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 - Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
 
-<img width="459" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551508-1b842256-7084-11e7-9937-8ac2629977d6.png">  
+<img width="604" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551733-970e3e4c-7085-11e7-8caf-af062a493fe3.png">  
 
 You don't need to set anything in the `Collection Rendering` section.
 In the `Collection Settings` section, check "Show Permalink".
