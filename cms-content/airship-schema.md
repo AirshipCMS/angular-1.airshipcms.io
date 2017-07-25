@@ -80,7 +80,7 @@ TBA. You will need to set up a SPA Route so that your Angular Application can lo
 ---
 
 # Deployment
-Finish the Angular Tutorial first to set up and build all Angular components. When you have completed the Angular Tutorial then follow these steps to publish your project.
+Finish the Angular Tutorial first to set up and build all Angular components. When you have completed the Angular Tutorial and the site is running locally, follow these steps to publish your project:
 - Open your terminal.
 - In the root of your project, run `airship launch`
 - Enter `y` when prompted. This will deploy your app to `yoursite.airshipcms.io`.
