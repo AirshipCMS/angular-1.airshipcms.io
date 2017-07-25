@@ -3,17 +3,19 @@ Before you can do the Angular Tutorial, complete this tutorial for recreating th
 
 ## Login to Airship CMS
 In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
-[picture of airship cms login]  
+
+<img width="916" alt="airship-admin-login" src="https://user-images.githubusercontent.com/1865400/28551593-a1a45e82-7084-11e7-9272-c10b25aedae3.png">  
 
 ## Modify the `_root_` page
-- Click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Landing Page".
+Click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Landing Page".
 
 <img width="236" alt="homepage" src="https://user-images.githubusercontent.com/1865400/28551369-461a3f38-7083-11e7-9a81-f11bd7cd80f1.png">
 
-- Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
+Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
 
 <img width="683" alt="homepage-page-rendering" src="https://user-images.githubusercontent.com/1865400/28551396-738c3188-7083-11e7-98a4-5d05b7b0b516.png">
 
+Modify the Page Fields:
 - Remove the initial page fields from the `Page Fields` section.
 - Add a textarea field titled "Description".
 - Add a link field titled "Github". 
@@ -21,13 +23,15 @@ In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with you
 
 <img width="730" alt="homepage-fields" src="https://user-images.githubusercontent.com/1865400/28551419-9acdbd52-7083-11e7-8d57-044e65404628.png">  
 
-- Click the Modify Page button.
+Click the Modify Page button.
 
 ## Create the `Airship Schema`, `Angular Tutorial`, and `Styling` Pages
 - Navigate to `Pages` and click the `New Page` button.
 - Enter "Airship Schema" into the Title field.
 - The permalink "airship-schema" will generate.
-[picture of title and permalink]  
+
+<img width="683" alt="airship-schema" src="https://user-images.githubusercontent.com/1865400/28551616-d3c1d764-7084-11e7-87b2-652de63df8e5.png">  
+
 - You don't need to set anything in the `Template Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
 - In the `Page Fields` section, add a textarea field titled "Body".
 - Click `Create Page`.
