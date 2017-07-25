@@ -72,6 +72,9 @@ Click the `Create Collection` button.
 - Click the `Save & Close` button.
 - Create a few more elements.
 
+## Local Development
+Follow the Setup instructions for cloning this repository, logging in, starting a server, and viewing the site locally.
+
 ---
 
 # Site Settings
