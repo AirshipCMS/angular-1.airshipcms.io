@@ -8,6 +8,7 @@ You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airsh
 - [Airship CMS](https://airshipcms.io): a web development & deployment platform.
 - [Angular 1.6.4](https://angularjs.org): a JavaScript MVW framework.
 - [angular-route](https://www.npmjs.com/package/angular-route): used for routing.
+- [Gulp](http://gulpjs.com/): used to compile CSS.
 - [Bulma](http://bulma.io/): a modern CSS framework.
 
 # Project Setup
