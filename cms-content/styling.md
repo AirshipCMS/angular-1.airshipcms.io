@@ -52,7 +52,7 @@ gulp.task('watch', function () {
 gulp.task('default', ['css', 'watch']);
 ```
 
-## 5. Run the Project
+## 4. Run the Project
 
 To compile your css files run:
 ```
