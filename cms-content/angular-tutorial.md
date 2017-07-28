@@ -150,5 +150,12 @@ Template:
 </div>
 ```
 
-## 5. ????
-Should there be a how to build/run step here?? It feels incomplete.
+## 5. Run the Project
+
+In your terminal, run:
+```
+airship serve
+```
+
+This command will start your airship server.
+Open your browser and navigate to `localhost:9001`.
