@@ -7,4 +7,8 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./compartments/assets/styles'));
 });
 
-gulp.task('default', ['css']);
+gulp.task('watch', function () {
+  gulp.watch('./src/**/*.css', ['css']);
+});
+
+gulp.task('default', ['css', 'watch']);
