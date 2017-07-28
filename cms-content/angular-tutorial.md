@@ -32,14 +32,14 @@ To display page and collection content, you will need use the Airship API.
 
 ### Display Page Content using Airship API
 Make a GET request to`https://yoursite.airshipcms.io/api/pages/page-name`. 
-For the `_root_` page in this repo, the full GET request URL is: 
+For the `__root__` page in this repo, the full GET request URL is: 
 ```
-https://yourdomain.airshipcms.io/api/pages/_root_
+https://yourdomain.airshipcms.io/api/pages/__root__
 ```
 
 In the response object, you will see an array name `fields`. This array contains an object for each field associated with the page.
 
-The `_root_` page container a "Github" field, "Description" field, and a "Body" field. The `Airship Schema` page, `Angular Tutorial` page and `Styling` page all have a "Body" field.
+The `__root__` page container a "Github" field, "Description" field, and a "Body" field. The `Airship Schema` page, `Angular Tutorial` page and `Styling` page all have a "Body" field.
 
 Each field contains these properties:
 ```
