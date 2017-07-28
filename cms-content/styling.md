@@ -45,8 +45,24 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./compartments/assets/styles'));
   });
 
-gulp.task('default', ['css']);
+gulp.task('watch', function () {
+  gulp.watch('./src/**/*.css', ['css']);
+});
+
+gulp.task('default', ['css', 'watch']);
 ```
 
-## 4. ??
-should there be a "run" step here? feels incomplete.
+## 5. Run the Project
+
+To compile your css files run:
+```
+gulp
+````
+
+In another terminal window, run:
+```
+airship serve
+```
+
+This command will start your airship server.
+Open your browser and navigate to `localhost:9001`.
