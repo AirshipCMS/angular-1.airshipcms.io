@@ -5,5 +5,8 @@
     "gulp-postcss": "^7.0.0",
     "postcss-import": "^10.0.0",
     "postcss-nested": "^2.0.2"
+  },
+  "scripts": {
+  	"start": "airship serve"
   }
 }
