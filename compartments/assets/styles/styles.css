@@ -123,6 +123,12 @@ nav {
 }
 
 /*ELEMENTS*/
+.columns {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
 
 .image {
   background-color: #C2002E;
