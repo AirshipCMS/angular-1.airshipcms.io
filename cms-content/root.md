@@ -47,8 +47,7 @@ airship serve
 This will start the Airship Server in your local project directory.
 
 ## 7. Complete the Styling & Angular Tutorial
-Follow the instructions for setting up Styling for the project.
-Follow the instructions for setting up the Angular components of the project.
+Follow the instructions for setting up [Styling](https://angular-1.airshipcms.io/styling) & [Angular](https://angular-1.airshipcms.io/angular-tutorial) for this project.
 (If you don't want to follow the instructions step-by-step, you can also copy the relevant files from the demo repo to your site directory).
 
 ## 8. View the local site in a browser
