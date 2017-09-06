@@ -79,7 +79,5 @@ _If you have a local copy of this repository, the graphics for all the elements 
 ## Site Settings
 You will need to set up a SPA Route so that your Angular Application can load on the _root_ page. (@te finish instructions and add screenshots)
 
----
-
-# Local Development
+## Local Development
 Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
