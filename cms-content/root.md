@@ -13,8 +13,6 @@ You can view the demo at [http://angular-1.airshipcms.io](http://angular-1.airsh
 
 # Project Setup
 
-Before you can create this project, you will need an Airship CMS developer account. Get an Account at [https://skyport.airshipcms.io](https://skyport.airshipcms.io).
-
 ## 1. Provision a Site in the Airship Developer Portal
 Provision a new site in the [Airship Developer Portal](https://skyport.airshipcms.io).
 
