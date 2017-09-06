@@ -43,7 +43,7 @@ In the `Page Fields` section, add a textarea field titled "Body".
 Click `Create Page`.
 Repeat, for the "Angular Tutorial" and "Styling" pages.
 
-<img width="901" alt="all-pages" src="https://user-images.githubusercontent.com/1865400/28551652-1e438152-7085-11e7-86d8-ae265fefc654.png">  
+<img width="901" alt="all-pages" src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Pages.png">  
 
 ## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
@@ -51,13 +51,19 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 - Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
 
-<img width="604" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551733-970e3e4c-7085-11e7-8caf-af062a493fe3.png">  
+<img width="604" alt="elements-collection-setup" src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Collection%20Setup.png">  
 
 In the `Collection Rendering` section, you'll see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
 
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/collection-rendering.png">
+
 `Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
 
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/items-per-page.png">
+
 `Sort Property` determines what property the items will be sorted by. The avaliable options are `permalink`, `created at`, `published on` and `sorting position`. For this project select `sorting position`.
+
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/sort-property.png">
 
 `Sort Order` determines the order the items will be sorted. The options are `ascending` and `descending`. Leave the value as `ascending`.
 
@@ -85,11 +91,18 @@ _If you have a local copy of this repository, the graphics for all the elements 
 
 ## Site Settings
 You will need to set up a SPA Route so that your Angular Application can load on the _root_ page.
-- In the Airship admin panel, click the `Settings` located in the sidebar.
-- Click the `Developer` tab.
-- Click the `Add Route` button in the `Single-Page Application Routes` section.
-- Leave `/.*` as the value for the `Pattern` field and `/` as the value for the `Destination` field then click `Add`.
 
+In the Airship admin panel, click the `Settings` located in the sidebar.
+
+Click the `Developer` tab.
+
+Click the `Add Route` button in the `Single-Page Application Routes` section.
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Single-Page-Application-Routes.png">
+
+Leave `/.*` as the value for the `Pattern` field and `/` as the value for the `Destination` field then click `Add`.
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Add-SPA-Route.png">
+
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Added-SPA-Route.png">
 
 ## Local Development
 Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
