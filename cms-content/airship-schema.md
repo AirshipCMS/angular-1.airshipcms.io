@@ -1,13 +1,15 @@
 # Airship Schema
 Before you can do the Angular Tutorial, complete this tutorial for recreating the Airship Schema for this project.
 
+---
+
 ## Login to Airship CMS
-In your browser, navigate to `yourdomain.airshipcms.io/admin` and login with your credentials.
+In your browser, navigate to `mysite.airshipcms.io/admin` and login with your credentials (_replace "mysite" with your actual site subdomain_).
 
 <img width="916" alt="airship-admin-login" src="https://user-images.githubusercontent.com/1865400/28551593-a1a45e82-7084-11e7-9272-c10b25aedae3.png">  
 
 ## Modify the `_root_` page
-Click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Landing Page".
+In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Homepage".
 
 <img width="236" alt="homepage" src="https://user-images.githubusercontent.com/1865400/28551369-461a3f38-7083-11e7-9a81-f11bd7cd80f1.png">
 
@@ -52,7 +54,7 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 <img width="604" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551733-970e3e4c-7085-11e7-8caf-af062a493fe3.png">  
 
 You don't need to set anything in the `Collection Rendering` section.
-In the `Collection Settings` section, check "Show Permalink".
+In the `Collection Settings` section, be sure "Show Permalink" is checked.
 
 <img width="720" alt="elements-collection-settings" src="https://user-images.githubusercontent.com/1865400/28551522-30d3c5a8-7084-11e7-9ecf-db23a76f36f0.png">  
 
@@ -74,18 +76,10 @@ Click the `Create Collection` button.
 
 _If you have a local copy of this repository, the graphics for all the elements in this demo are included in a directory outside of compartments._
 
-## Local Development
-Follow the Setup instructions for cloning this repository, logging in, starting a server, and viewing the site locally.
+## Site Settings
+You will need to set up a SPA Route so that your Angular Application can load on the _root_ page. (@te finish instructions and add screenshots)
 
 ---
 
-# Site Settings
-TBA. You will need to set up a SPA Route so that your Angular Application can load on the _root_ page.
-
----
-
-# Deployment
-Finish the Angular Tutorial first to set up and build all Angular components. When you have completed the Angular Tutorial and the site is running locally, follow these steps to publish your project:
-- Open your terminal.
-- In the root of your project, run `airship launch`
-- Enter `y` when prompted. This will deploy your app to `yoursite.airshipcms.io`.
+# Local Development
+Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
