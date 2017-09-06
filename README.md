@@ -55,4 +55,4 @@ In the root of your directory, run:
 ```
 airship launch
 ```
-Your demo site will be published!
+Enter `y` when prompted. In seconds, your demo site will be published!
