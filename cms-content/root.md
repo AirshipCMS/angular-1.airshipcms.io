@@ -39,19 +39,17 @@ airship land
 ```
 This will download the initial project templates and directories.
 
-## 6. Start the local Airship Server in your Terminal
-In the root of your directory, run:
+## 6. Run the Airship Server & View the Local Site
+In the root of your directory, run the following to start the Airship Server in your local project directory.
 ```
 airship serve
 ```
-This will start the Airship Server in your local project directory.
 
-## 7. Complete the Styling & Angular Tutorial
+Open a web browser and navigate to `localhost:9001` to view your local site.
+
+## 7. Complete the Styling Setup & Angular Tutorial
 Follow the instructions for setting up [Styling](https://angular-1.airshipcms.io/styling) & [Angular](https://angular-1.airshipcms.io/angular-tutorial) for this project.
 (If you don't want to follow the instructions step-by-step, you can also copy the relevant files from the demo repo to your site directory).
-
-## 8. View the local site in a browser
-Open a web browser and navigate to `localhost:9001`.
 
 ## 9. Launch your Site
 In the root of your directory, run:
