@@ -53,7 +53,14 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 
 <img width="604" alt="elements-collection-setup" src="https://user-images.githubusercontent.com/1865400/28551733-970e3e4c-7085-11e7-8caf-af062a493fe3.png">  
 
-You don't need to set anything in the `Collection Rendering` section.
+In the `Collection Rendering` section, you'll see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
+
+`Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
+
+`Sort Property` determines what property the items will be sorted by. The avaliable options are `permalink`, `created at`, `published on` and `sorting position`. For this project select `sorting position`.
+
+`Sort Order` determines the order the items will be sorted. The options are `ascending` and `descending`. Leave the value as `ascending`.
+
 In the `Collection Settings` section, be sure "Show Permalink" is checked.
 
 <img width="720" alt="elements-collection-settings" src="https://user-images.githubusercontent.com/1865400/28551522-30d3c5a8-7084-11e7-9ecf-db23a76f36f0.png">  
@@ -77,7 +84,12 @@ Click the `Create Collection` button.
 _If you have a local copy of this repository, the graphics for all the elements in this demo are included in a directory outside of compartments._
 
 ## Site Settings
-You will need to set up a SPA Route so that your Angular Application can load on the _root_ page. (@te finish instructions and add screenshots)
+You will need to set up a SPA Route so that your Angular Application can load on the _root_ page.
+- In the Airship admin panel, click the `Settings` located in the sidebar.
+- Click the `Developer` tab.
+- Click the `Add Route` button in the `Single-Page Application Routes` section.
+- Leave `/.*` as the value for the `Pattern` field and `/` as the value for the `Destination` field then click `Add`.
+
 
 ## Local Development
 Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
