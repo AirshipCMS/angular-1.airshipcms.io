@@ -93,8 +93,10 @@ _If you have a local copy of this repository, the graphics for all the elements 
 You will need to set up a SPA Route so that your Angular Application can load on the _root_ page.
 
 In the Airship admin panel, click the `Settings` located in the sidebar.
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/e4bf7769/assets/settings-link.png">
 
 Click the `Developer` tab.
+<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/e4bf7769/assets/developer-tab.png">
 
 Click the `Add Route` button in the `Single-Page Application Routes` section.
 <img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Single-Page-Application-Routes.png">
