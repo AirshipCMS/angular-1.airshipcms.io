@@ -51,7 +51,7 @@ Open a web browser and navigate to `localhost:9001` to view your local site.
 Follow the instructions for setting up [Styling](https://angular-1.airshipcms.io/styling) & [Angular](https://angular-1.airshipcms.io/angular-tutorial) for this project.
 (If you don't want to follow the instructions step-by-step, you can also copy the relevant files from the demo repo to your site directory).
 
-## 9. Launch your Site
+## 8. Launch your Site
 In the root of your directory, run:
 ```
 airship launch
