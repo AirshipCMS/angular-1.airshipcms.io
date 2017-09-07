@@ -48,8 +48,8 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 ## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
 - Enter "Elements" in the Title field.
-- Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
+- The Name "elements" will also generate. Modify it to be "element"
 
 <img width="653" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
