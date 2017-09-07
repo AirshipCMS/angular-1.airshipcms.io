@@ -34,7 +34,7 @@ Click the Modify Page button.
 
 <img width="683" alt="Airship Schema Permalink" src="https://airshipcms.io/assets/media/oss-elements/page-setup.jpg">
 
-You don't need to set anything in the `Template Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
+You don't need to set anything in the `Page Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
 
 In the `Page Fields` section, add a textarea field titled "Body".
 
