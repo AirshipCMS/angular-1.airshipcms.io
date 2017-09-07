@@ -6,16 +6,16 @@ Before you can do the Angular Tutorial, complete this tutorial for recreating th
 ## Login to Airship CMS
 In your browser, navigate to `mysite.airshipcms.io/admin` and login with your credentials (_replace "mysite" with your actual site subdomain_).
 
-<img width="849" alt="airship-admin-login" src="https://airshipcms.io/assets/media/oss-elements/login-to-airship-cms.jpg">  
+<img width="849" alt="Admin Login" src="https://airshipcms.io/assets/media/oss-elements/login-to-airship-cms.jpg">  
 
 ## Modify the `_root_` page
-In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Homepage".
+In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://airshipcms.io/assets/media/quickstart-guide/icon-wrench.png"> Modify Link for the "Homepage".
 
-<img width="236" alt="homepage" src="https://user-images.githubusercontent.com/1865400/28551369-461a3f38-7083-11e7-9a81-f11bd7cd80f1.png">
+<img width="236" alt="Modify the Root Page" src="https://airshipcms.io/assets/media/oss-elements/modify-the-root-page.jpg">
 
 Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
 
-<img width="683" alt="homepage-page-rendering" src="https://user-images.githubusercontent.com/1865400/28551396-738c3188-7083-11e7-98a4-5d05b7b0b516.png">
+<img width="683" alt="Page Rendering" src="https://airshipcms.io/assets/media/oss-elements/page-rendering.jpg">
 
 Modify the Page Fields:
 - Remove the initial page fields from the `Page Fields` section.
