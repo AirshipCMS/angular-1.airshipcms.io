@@ -53,21 +53,13 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 
 <img width="933" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
-In the `Collection Rendering` section, you can skip setting a layout and template directory because all pages in the Elements collection will be rendered with Angular.
+In the `Collection Rendering` section, you'll see `Layout`, `Template Directory`, `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
 
 <img width="727" alt="Collection Rendering" src="https://airshipcms.io/assets/media/oss-elements/collection-rendering-no-layout-or-templates.jpg">
 
-You will see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
+You can skip setting a layout and template directory because all pages in the Elements collection will be rendered with with a single-page application.
 
-`Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
-
-<img width="343" alt="Items per Page" src="https://airshipcms.io/assets/media/oss-elements/collection-items-per-page.jpg">
-
-`Sort Property` determines what property the items will be sorted by. The avaliable options are `permalink`, `created at`, `published on` and `sorting position`. For this project select `sorting position`.
-
-<img width="356" alt="Sort Property" src="https://airshipcms.io/assets/media/oss-elements/collection-sort-property.jpg">
-
-`Sort Order` determines the order the items will be sorted. The options are `ascending` and `descending`. Leave the value as `ascending`.
+You can also leave the `Items Per Page`, `Sort Property`, and `Sort Order` as-is, since your application will override any values set here.
 
 In the `Collection Settings` section, be sure "Show Permalink" is checked.
 
