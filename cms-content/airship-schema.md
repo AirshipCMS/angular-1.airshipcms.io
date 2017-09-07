@@ -51,33 +51,33 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 - Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
 
-[collection-setup.jpg]
+<img width="933" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
 In the `Collection Rendering` section, you'll see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
 
-[collection-rendering.jpg]
+<img width="744" alt="Collection Rendering" src="https://airshipcms.io/assets/media/oss-elements/collection-rendering.jpg">
 
 `Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
 
-[collection-items-per-page.jpg]
+<img width="343" alt="Items per Page" src="https://airshipcms.io/assets/media/oss-elements/collection-items-per-page.jpg">
 
 `Sort Property` determines what property the items will be sorted by. The avaliable options are `permalink`, `created at`, `published on` and `sorting position`. For this project select `sorting position`.
 
-[collection-sort-property.jpg]
+<img width="356" alt="Sort Property" src="https://airshipcms.io/assets/media/oss-elements/collection-sort-property.jpg">
 
 `Sort Order` determines the order the items will be sorted. The options are `ascending` and `descending`. Leave the value as `ascending`.
 
 In the `Collection Settings` section, be sure "Show Permalink" is checked.
 
-[collection-settings.jpg]
+<img width="720" alt="Collection Settings" src="https://airshipcms.io/assets/media/oss-elements/collection-settings.jpg">
 
 In the `Post Fields` section, add a text field titled "Name", an image field titled "Image", and a textarea field titled "Description".
 
-[collection-post-fields.jpg]
+<img width="697" alt="Collection Post Fields" src="https://airshipcms.io/assets/media/oss-elements/collection-post-fields.jpg">
 
 Set the Primary Label to "Name".
 
-[collection-primary-label.jpg]
+<img width="359" alt="Collection Primary Label" src="https://airshipcms.io/assets/media/oss-elements/collection-primary-label.jpg">
 
 Click the `Create Collection` button.
 
@@ -94,15 +94,15 @@ You will need to set up a SPA Route so that your Angular Application can load on
 
 In the Airship admin panel, click the `Settings` located in the sidebar, then click the `Developer` tab. The Developer Settings page will look like this:
 
-[developer-settings.jpg]
+<img width="990" alt="Developer Settings" src="https://airshipcms.io/assets/media/oss-elements/developer-settings.jpg">
 
 Click the `Add Route` button in the `Single-Page Application Routes` section.
 
-[single-page-application-routes.jpg]
+<img width="238" alt="SPA Routes" src="https://airshipcms.io/assets/media/oss-elements/single-page-application-routes.jpg">
 
 Leave `/.*` as the value for the `Pattern` field and `/` as the value for the `Destination` field then click `Add`.
 
-[single-page-application-routes-added.jpg]
+<img width="760" alt="SPA Routes" src="https://airshipcms.io/assets/media/oss-elements/single-page-application-routes-added.jpg">
 
 ## Local Development
 Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
