@@ -51,7 +51,7 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 - Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
 
-<img width="933" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
+<img width="653" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
 In the `Collection Rendering` section, you'll see `Layout`, `Template Directory`, `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
 
