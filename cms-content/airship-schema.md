@@ -53,9 +53,11 @@ Repeat, for the "Angular Tutorial" and "Styling" pages.
 
 <img width="933" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
-In the `Collection Rendering` section, you'll see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
+In the `Collection Rendering` section, you can skip setting a layout and template directory because all pages in the Elements collection will be rendered with Angular.
 
-<img width="744" alt="Collection Rendering" src="https://airshipcms.io/assets/media/oss-elements/collection-rendering.jpg">
+You will see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
+
+<img width="744" alt="Collection Rendering" src="https://airshipcms.io/assets/media/oss-elements/collection-rendering-no-layout-or-templates.jpg">
 
 `Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
 
