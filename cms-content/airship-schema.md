@@ -23,7 +23,7 @@ Modify the Page Fields:
 - Add a link field titled "Github". 
 - Add a textarea field titled "Body". 
 
-<img width="730" alt="homepage-fields" src="https://user-images.githubusercontent.com/1865400/28551419-9acdbd52-7083-11e7-8d57-044e65404628.png">  
+<img width="730" alt="Root Page Fields" src="https://airshipcms.io/assets/media/oss-elements/page-fields.jpg">
 
 Click the Modify Page button.
 
@@ -32,18 +32,18 @@ Click the Modify Page button.
 - Enter "Airship Schema" into the Title field.
 - The permalink "airship-schema" will generate.
 
-<img width="683" alt="airship-schema" src="https://user-images.githubusercontent.com/1865400/28551616-d3c1d764-7084-11e7-87b2-652de63df8e5.png">  
+<img width="683" alt="Airship Schema Permalink" src="https://airshipcms.io/assets/media/oss-elements/page-setup.jpg">
 
 You don't need to set anything in the `Template Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
 
 In the `Page Fields` section, add a textarea field titled "Body".
 
-<img width="625" alt="page-field-body" src="https://user-images.githubusercontent.com/1865400/28551639-00242dca-7085-11e7-9cf0-74fa34527306.png">  
+<img width="625" alt="Body Field" src="https://airshipcms.io/assets/media/oss-elements/page-fields-body.jpg">
 
 Click `Create Page`.
 Repeat, for the "Angular Tutorial" and "Styling" pages.
 
-<img width="901" alt="all-pages" src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Pages.png">  
+<img width="930" alt="All Pages" src="https://airshipcms.io/assets/media/oss-elements/pages-all.jpg">  
 
 ## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
