@@ -6,7 +6,7 @@ Before you can do the Angular Tutorial, complete this tutorial for recreating th
 ## Login to Airship CMS
 In your browser, navigate to `mysite.airshipcms.io/admin` and login with your credentials (_replace "mysite" with your actual site subdomain_).
 
-<img width="916" alt="airship-admin-login" src="https://user-images.githubusercontent.com/1865400/28551593-a1a45e82-7084-11e7-9272-c10b25aedae3.png">  
+<img width="849" alt="airship-admin-login" src="https://airshipcms.io/assets/media/oss-elements/login-to-airship-cms.jpg">  
 
 ## Modify the `_root_` page
 In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Homepage".
