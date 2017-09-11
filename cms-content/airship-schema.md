@@ -6,16 +6,16 @@ Before you can do the Angular Tutorial, complete this tutorial for recreating th
 ## Login to Airship CMS
 In your browser, navigate to `mysite.airshipcms.io/admin` and login with your credentials (_replace "mysite" with your actual site subdomain_).
 
-<img width="916" alt="airship-admin-login" src="https://user-images.githubusercontent.com/1865400/28551593-a1a45e82-7084-11e7-9272-c10b25aedae3.png">  
+<img width="849" alt="Admin Login" src="https://airshipcms.io/assets/media/oss-elements/login-to-airship-cms.jpg">  
 
 ## Modify the `_root_` page
-In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://user-images.githubusercontent.com/1865400/28548077-afe52966-706d-11e7-93f0-ce9e958ec070.png"> Modify Link for the "Homepage".
+In the sidebar, click "Pages" then click the <img width="26" alt="wrench" src="https://airshipcms.io/assets/media/quickstart-guide/icon-wrench.png"> Modify Link for the "Homepage".
 
-<img width="236" alt="homepage" src="https://user-images.githubusercontent.com/1865400/28551369-461a3f38-7083-11e7-9a81-f11bd7cd80f1.png">
+<img width="236" alt="Modify the Root Page" src="https://airshipcms.io/assets/media/oss-elements/modify-the-root-page.jpg">
 
 Check that the layout for the page is set to `application.html` and the template for the page is set to `root.html`.
 
-<img width="683" alt="homepage-page-rendering" src="https://user-images.githubusercontent.com/1865400/28551396-738c3188-7083-11e7-98a4-5d05b7b0b516.png">
+<img width="683" alt="Page Rendering" src="https://airshipcms.io/assets/media/oss-elements/page-rendering.jpg">
 
 Modify the Page Fields:
 - Remove the initial page fields from the `Page Fields` section.
@@ -23,7 +23,7 @@ Modify the Page Fields:
 - Add a link field titled "Github". 
 - Add a textarea field titled "Body". 
 
-<img width="730" alt="homepage-fields" src="https://user-images.githubusercontent.com/1865400/28551419-9acdbd52-7083-11e7-8d57-044e65404628.png">  
+<img width="730" alt="Root Page Fields" src="https://airshipcms.io/assets/media/oss-elements/page-fields.jpg">
 
 Click the Modify Page button.
 
@@ -32,52 +32,46 @@ Click the Modify Page button.
 - Enter "Airship Schema" into the Title field.
 - The permalink "airship-schema" will generate.
 
-<img width="683" alt="airship-schema" src="https://user-images.githubusercontent.com/1865400/28551616-d3c1d764-7084-11e7-87b2-652de63df8e5.png">  
+<img width="683" alt="Airship Schema Permalink" src="https://airshipcms.io/assets/media/oss-elements/page-setup.jpg">
 
-You don't need to set anything in the `Template Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
+You don't need to set anything in the `Page Rendering` section, since the contents of the project are all rendered in the single-page application on the root page.
 
 In the `Page Fields` section, add a textarea field titled "Body".
 
-<img width="625" alt="page-field-body" src="https://user-images.githubusercontent.com/1865400/28551639-00242dca-7085-11e7-9cf0-74fa34527306.png">  
+<img width="625" alt="Body Field" src="https://airshipcms.io/assets/media/oss-elements/page-fields-body.jpg">
 
 Click `Create Page`.
 Repeat, for the "Angular Tutorial" and "Styling" pages.
 
-<img width="901" alt="all-pages" src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Pages.png">  
+<img width="930" alt="All Pages" src="https://airshipcms.io/assets/media/oss-elements/pages-all.jpg">  
 
 ## Create the `Elements` Collection
 - Navigate to `Collections` and click the `New Collection` button.
 - Enter "Elements" in the Title field.
-- Refer to a single item in this collection as a(n)... "element".
 - The public path "elements" will generate.
+- The Name "elements" will also generate. Modify it to be "element"
 
-<img width="604" alt="elements-collection-setup" src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Collection%20Setup.png">  
+<img width="653" alt="Collection Setup" src="https://airshipcms.io/assets/media/oss-elements/collection-setup.jpg">
 
-In the `Collection Rendering` section, you'll see `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
+In the `Collection Rendering` section, you'll see `Layout`, `Template Directory`, `Items Per Page` with `50` as the default value, `Sort Property` with `permalink` as the default value and `Sort Order` with `ascending` as the default value.
 
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/collection-rendering.png">
+<img width="727" alt="Collection Rendering" src="https://airshipcms.io/assets/media/oss-elements/collection-rendering-no-layout-or-templates.jpg">
 
-`Items Per Page` determines the number of items rendered on the page and must be a number. Change the value to `1000`.
+You can skip setting a layout and template directory because all pages in the Elements collection will be rendered with with a single-page application.
 
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/items-per-page.png">
-
-`Sort Property` determines what property the items will be sorted by. The avaliable options are `permalink`, `created at`, `published on` and `sorting position`. For this project select `sorting position`.
-
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/sort-property.png">
-
-`Sort Order` determines the order the items will be sorted. The options are `ascending` and `descending`. Leave the value as `ascending`.
+You can also leave the `Items Per Page`, `Sort Property`, and `Sort Order` as-is, since your application will override any values set here.
 
 In the `Collection Settings` section, be sure "Show Permalink" is checked.
 
-<img width="720" alt="elements-collection-settings" src="https://user-images.githubusercontent.com/1865400/28551522-30d3c5a8-7084-11e7-9ecf-db23a76f36f0.png">  
+<img width="720" alt="Collection Settings" src="https://airshipcms.io/assets/media/oss-elements/collection-settings.jpg">
 
 In the `Post Fields` section, add a text field titled "Name", an image field titled "Image", and a textarea field titled "Description".
 
-<img width="697" alt="elements-collection-fields" src="https://user-images.githubusercontent.com/1865400/28551551-571e8a4a-7084-11e7-88bc-b9ff2524654d.png">  
+<img width="697" alt="Collection Post Fields" src="https://airshipcms.io/assets/media/oss-elements/collection-post-fields.jpg">
 
 Set the Primary Label to "Name".
 
-<img width="359" alt="elements-collection-primary-label" src="https://user-images.githubusercontent.com/1865400/28551566-70836c26-7084-11e7-979e-09429ea071b9.png">  
+<img width="359" alt="Collection Primary Label" src="https://airshipcms.io/assets/media/oss-elements/collection-primary-label.jpg">
 
 Click the `Create Collection` button.
 
@@ -92,19 +86,18 @@ _If you have a local copy of this repository, the graphics for all the elements 
 ## Site Settings
 You will need to set up a SPA Route so that your Angular Application can load on the _root_ page.
 
-In the Airship admin panel, click the `Settings` located in the sidebar.
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/e4bf7769/assets/settings-link.png">
+In the Airship admin panel, click the `Settings` located in the sidebar, then click the `Developer` tab. The Developer Settings page will look like this:
 
-Click the `Developer` tab.
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/e4bf7769/assets/developer-tab.png">
+<img width="990" alt="Developer Settings" src="https://airshipcms.io/assets/media/oss-elements/developer-settings.jpg">
 
 Click the `Add Route` button in the `Single-Page Application Routes` section.
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Single-Page-Application-Routes.png">
+
+<img width="238" alt="SPA Routes" src="https://airshipcms.io/assets/media/oss-elements/single-page-application-routes.jpg">
 
 Leave `/.*` as the value for the `Pattern` field and `/` as the value for the `Destination` field then click `Add`.
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Add-SPA-Route.png">
 
-<img src="https://cdn.rawgit.com/AirshipCMS/angular-1.airshipcms.io/d074f23a/assets/Added-SPA-Route.png">
+<img width="760" alt="SPA Routes" src="https://airshipcms.io/assets/media/oss-elements/single-page-application-routes-added.jpg">
 
 ## Local Development
 Return to the Setup Instructions Step #3 for instructions on developing locally, setting up the Angular project, and deployment.
+ 
