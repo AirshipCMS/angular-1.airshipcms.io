@@ -4,6 +4,10 @@ body, button, input, select, textarea {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+h2 code {
+  font-size: 0.85em !important;
+}
+
 .body p {
   margin-top: 0;
 }
@@ -66,12 +70,14 @@ a.github-link{
   width: 22px;
   height: 22px;
   margin-left: 10px;
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 @media screen and (min-width: 769px){
   a.github-link{
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     margin-left: 0;
   }
 }
